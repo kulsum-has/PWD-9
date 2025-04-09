@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    color: rgb(9, 185, 9);
+}
+.ubah:hover{
+    color: red;
+    
+}
+.ganti{
+    border: 1px solid;
+    /* margin = batas luar*/
+    /* margin-left: 30px; */
+    /* margin-bottom: 100px; */
+    /* bisa di singkat jadi  */
+    /* margin: 30px; (jika sama) */
+    /* margin: 30px 10px; (1 */
+    /* margin: 30px 10px 20px; */
+    padding: 20px;
+
+}
+p{
+    border: 1px solid;
+    display: inline;
+    /* display: block;(bakal lebawah) */
+
+}
+.container{
+    border: 1px; /*pembungkus */
+    display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+.header{
+    background-color: aqua;
+    height: 100px;
+}
+.content{
+    height: 200px;
+    background-color: red;
+}
+.side{
+    height: 100%;
+    width: ;
+}

@@ -1,0 +1,16 @@
+*{
+    border: 0;
+    padding: 0;
+}
+.container{
+    border: 1px; /*pembungkus */
+    display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+.logo{
+    
+    background-color: purple;
+    height: 100px;
+    
+}
